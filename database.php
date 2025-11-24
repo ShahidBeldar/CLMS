@@ -9,10 +9,10 @@ if (session_status() == PHP_SESSION_NONE) {
 }
 
 // Database credentials
-$host = "sql312.infinityfree.com";
-$user = "if0_39917959";
-$pass = "X1Wa18WooBx";
-$dbname = "if0_39917959_collegelibrary";
+$host = "localhost";
+$user = "root";
+$pass = "";
+$dbname = "collegelibrary";
 
 // Establish a secure MySQLi connection.
 $conn = new mysqli($host, $user, $pass, $dbname);
